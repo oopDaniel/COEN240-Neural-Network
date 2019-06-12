@@ -7,7 +7,6 @@ install:
 	@echo Installing pkg...
 	./tmp/bin/pip3 install numpy tensorflow sklearn keras
 
-# modify the arguments here
 start:
 	./tmp/bin/python3 main.py
 
