@@ -32,7 +32,7 @@ model.add(Dense(output_nodes_count, activation='softmax'))
 
 # Compile model
 adam = optimizers.Adam(lr=1e-5, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
-model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.compile(loss='categorical_crossentropy', optimizer=adam, metrics=['accuracy'])
 # Fit the model
 model.fit(train_data, labels, epochs=5)
 

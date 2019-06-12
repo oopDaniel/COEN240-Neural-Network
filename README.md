@@ -1,12 +1,6 @@
-# Skin detection application based on Bayesian classifier
+# Neural Network
 
-Use Bayesian classifier with a training image to calculate the probability of whether a pixel is a skin pixel.
-
-
-| Original image | Ground Truth Mask | Detection Result |
-| - | - | - |
-| ![](./data/portrait.jpg) | ![](./data/portrait.png) | ![](./images/detected.jpg) |
-
+Build a two-layer neural network for the hand-written digits recognition task with the MNIST data set. The hidden layer has 512 nodes, and adopts the ReLU activation function; the output layer has 10 nodes, and adopts the softmax activation function. Use the cross-entropy error function, and run 5 epochs. Give the recognition accuracy rate and show the confusion matrix, both for the test set.
 
 
 ## Get started
@@ -24,8 +18,9 @@ make start
 ```
 
 
-## Dependency
+## Dependency:
 
 - Python 3+
 - numpy
-- PIL
+- sklearn
+- keras
