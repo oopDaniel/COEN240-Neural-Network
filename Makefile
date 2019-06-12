@@ -5,7 +5,7 @@ install:
 	@echo Creating virtual environment...
 	python3 -m venv tmp
 	@echo Installing pkg...
-	./tmp/bin/pip3 install numpy tensorflow sklearn
+	./tmp/bin/pip3 install numpy tensorflow sklearn keras
 
 # modify the arguments here
 start:
